@@ -1,4 +1,4 @@
-# 🏦 Santander: Next Product to Buy — Multi-Label Product Recommendation
+# Santander: Next Product to Buy — Multi-Label Product Recommendation
 
 **A machine learning system for predicting financial product adoption**, enabling data-driven cross-sell strategies with 8× cost efficiency improvement.
 
@@ -86,7 +86,7 @@ Banks maintain portfolios of 20+ financial products (current accounts, credit ca
 - **Modeling**: XGBoost, LightGBM, scikit-learn
 - **Explainability**: SHAP (TreeExplainer)
 - **Visualization**: matplotlib, seaborn, plotly
-- **Dashboard**: Streamlit
+- **Dashboard**: Streamlit/Power BI
 - **Environment**: Python 3.10+, Jupyter
 
 ---
