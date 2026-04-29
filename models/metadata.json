@@ -1,0 +1,88 @@
+{
+  "map7": 0.7848071861285648,
+  "models": {
+    "ind_cco_fin_ult1_added": {
+      "type": "xgb",
+      "auc": 0.9896286272252601,
+      "ap": 0.6043918575139041
+    },
+    "ind_cno_fin_ult1_added": {
+      "type": "xgb",
+      "auc": 0.9670746250293449,
+      "ap": 0.4413952912103279
+    },
+    "ind_ctju_fin_ult1_added": {
+      "type": "xgb",
+      "auc": 0.9999889934392265,
+      "ap": 0.954345468472827
+    },
+    "ind_ctma_fin_ult1_added": {
+      "type": "xgb",
+      "auc": 0.9944555266814133,
+      "ap": 0.26398603382222147
+    },
+    "ind_ctop_fin_ult1_added": {
+      "type": "xgb",
+      "auc": 0.9746487652115828,
+      "ap": 0.02238017360700274
+    },
+    "ind_ctpp_fin_ult1_added": {
+      "type": "xgb",
+      "auc": 0.9684029278613355,
+      "ap": 0.00983463501323383
+    },
+    "ind_dela_fin_ult1_added": {
+      "type": "xgb",
+      "auc": 0.9409007079807278,
+      "ap": 0.005355573185186818
+    },
+    "ind_ecue_fin_ult1_added": {
+      "type": "xgb",
+      "auc": 0.9610582692334598,
+      "ap": 0.44654303677171425
+    },
+    "ind_fond_fin_ult1_added": {
+      "type": "xgb",
+      "auc": 0.8843633932173743,
+      "ap": 0.0004674662460963549
+    },
+    "ind_plan_fin_ult1_added": {
+      "type": "xgb",
+      "auc": 0.8798920612847525,
+      "ap": 0.00024128615754103215
+    },
+    "ind_reca_fin_ult1_added": {
+      "type": "xgb",
+      "auc": 0.8830663522863572,
+      "ap": 0.002082393039710978
+    },
+    "ind_tjcr_fin_ult1_added": {
+      "type": "xgb",
+      "auc": 0.9606356667473683,
+      "ap": 0.17979605635948462
+    },
+    "ind_valo_fin_ult1_added": {
+      "type": "xgb",
+      "auc": 0.9050600019434597,
+      "ap": 0.004576936511776101
+    },
+    "ind_nomina_ult1_added": {
+      "type": "xgb",
+      "auc": 0.9714011169137248,
+      "ap": 0.42802401239406784
+    },
+    "ind_nom_pens_ult1_added": {
+      "type": "xgb",
+      "auc": 0.9688141554091225,
+      "ap": 0.41076067685808515
+    },
+    "ind_recibo_ult1_added": {
+      "type": "xgb",
+      "auc": 0.9613352418474554,
+      "ap": 0.30840467108494696
+    }
+  },
+  "feature_count": 95,
+  "trainable_products": 16,
+  "leakage_status": "CLEAN"
+}
