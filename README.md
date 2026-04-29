@@ -1,4 +1,4 @@
-# 🏦 Santander: Next Product to Buy — Predictive Model
+#  Santander: Next Product to Buy — Predictive Model
 
 ## Business Problem
 Banks offer dozens of products (credit cards, loans, deposits, insurance, etc.) but marketing all products to all customers is inefficient and annoying. **Which product should we recommend to which customer, and when?**
@@ -45,8 +45,14 @@ source venv/bin/activate  # macOS/Linux
 # Install dependencies
 pip install -r requirements.txt
 
-# Download data from Kaggle
-# Place train_ver2.csv in data/raw/
+# Download dataset from Kaggle (requires Kaggle account)
+# Go to: https://www.kaggle.com/c/santander-product-recommendation/data
+# Download train_ver2.csv.zip and extract it
+# Place train_ver2.csv into data/raw/
+
+# Alternative: using Kaggle CLI
+kaggle competitions download -c santander-product-recommendation
+unzip santander-product-recommendation.zip -d data/raw/
 
 # Run notebooks in order
 jupyter notebook notebooks/
